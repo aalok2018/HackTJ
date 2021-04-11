@@ -1,0 +1,16 @@
+{
+    "name": "BedTime",
+    "description": "Are you a student who just cannot seem to get enough sleep? Do you get work or get distracted right before your bedtime? Download BedTime right now! BedTime will stop you from wasting precious sleeping hours on your laptop. Sleep more, live more",
+    "version": "0.1.0",
+    "manifest_version": 2,
+
+    "browser_action": {
+        "default_icon": "moon.png",
+        "default_popup": "set.html"
+    },
+
+    "permissions": [
+        "storage",
+        "activeTab"
+    ]
+}
